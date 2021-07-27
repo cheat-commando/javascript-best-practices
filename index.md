@@ -17,7 +17,7 @@ Place scripts at the bottom of your web page; let everything else load first.
 
 Declare variables outside the For statement
 
-Do this to create a string rather than a For loop:
+Do this (or something similar) to create a string rather than a For loop:
     var arr = ['item 1', 'item 2', 'item 3', ...];
     var list = '<ul><li>' + arr.join('</li><li>') + '</li></ul>';
 
